@@ -1,0 +1,32 @@
+{
+  "description": "Es sollen die Umsätze der letzten 30 Tage ausgewertet werden (abhängig vom Verkauf, nicht aktuell). Alle Mitarbeitenden werden nach Umsatz sortiert, und die drei umsatzstärksten Mitarbeitenden (Top 1, Top 2, Top 3) werden identifiziert. Für diese werden die jeweiligen Einzelumsätze angegeben. Zusätzlich wird der Gesamtumsatz aller übrigen Mitarbeitenden berechnet. Das Ergebnis enthält somit vier Werte: die Umsätze der Top-3-Mitarbeitenden sowie den kumulierten Umsatz aller restlichen Mitarbeitenden."
+}
+
+
+{
+  "description": "Wer sind meine Mitarbeiter?"
+}
+
+{
+  "description": "Erstelle eine Liste: Für die Top-3-Mitarbeiter nach Umsatz sollen jeweils deren Top-3-Produkte angezeigt werden. Jede Zeile soll in der ersten Spalte den Mitarbeiternamen enthalten, gefolgt vom Produktnamen und dem Umsatz des Produkts. Die Reihenfolge soll nach Mitarbeiter und dann nach Umsatz der Produkte absteigend sein. als treemap"
+}
+
+
+{
+  "description": "Die drei Produkte mit dem niedrigsten Umsatz"
+}
+
+
+{ 
+"description": "Analysiere die letzten 60 Tage Verkaufsdaten: Berechne für jeden Store die Top-2-Mitarbeitenden nach Umsatz pro Produktkategorie. Für diese Mitarbeitenden soll zusätzlich der durchschnittliche Umsatz pro Kunde, die Anzahl der verschiedenen Kunden und die meistverkaufte Marke innerhalb der Kategorie ermittelt werden. Jede Zeile enthält Store, Mitarbeitendenname, Kategorie, Top-Marke, durchschnittlicher Umsatz pro Kunde und Gesamtumsatz des Mitarbeitenden. Die Ergebnisse sollen nach Store, Kategorie und Umsatz der Mitarbeitenden absteigend sortiert dargestellt werden. Visualisiere das Ergebnis als kombinierte Heatmap und Balkendiagramm, um Umsatzstärke und Kundenvielfalt gleichzeitig zu zeigen." 
+}
+
+{
+  "description": "Erstelle eine Analyse der letzten 90 Tage: Für jede Produktkategorie sollen die Top-3 Stores nach Gesamtumsatz ermittelt werden. Innerhalb dieser Stores sollen die Mitarbeitenden nach Umsatz gerankt werden, und für jeden Mitarbeitenden soll zusätzlich die durchschnittliche Rabattquote und der Anteil an Premium-Kunden (Kunden aus bestimmten Städten/Ländern) berechnet werden. Jede Zeile enthält Kategorie, Store, Mitarbeitendenname, Umsatz, durchschnittliche Rabattquote und Premium-Kundenanteil. Das Ergebnis soll nach Kategorie, Store-Umsatz und Mitarbeitenden-Umsatz absteigend sortiert werden. Visualisiere die Ergebnisse als kombinierte Sunburst- und Balkendiagramm, um die Hierarchie von Kategorie → Store → Mitarbeitender anschaulich darzustellen."
+}
+
+{
+  "description": "Analysiere die Verkaufsdaten basierend auf dem letzten verfügbaren Verkaufsdatum: Für jede Produktkategorie sollen die Top-5 Mitarbeitenden nach Umsatzwachstum im Vergleich zur Vorperiode ermittelt werden. Zusätzlich soll für jeden Mitarbeitenden der durchschnittliche Umsatz pro Kunde, die Anzahl wiederkehrender Kunden und der umsatzstärkste Wochentag berechnet werden. Jede Zeile enthält Kategorie, Mitarbeitendenname, Umsatzwachstum, durchschnittlicher Umsatz pro Kunde, Anzahl wiederkehrender Kunden und Top-Wochentag. Sortiere die Ergebnisse nach Kategorie und Umsatzwachstum absteigend. Visualisiere das Ergebnis als kombinierte Liniendiagramm- und Heatmap-Darstellung, um Wachstum und Kundenaktivität gleichzeitig sichtbar zu machen."
+}
+
+
